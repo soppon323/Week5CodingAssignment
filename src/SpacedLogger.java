@@ -8,15 +8,15 @@ public class SpacedLogger implements Logger {
         
         { for (int i = 0; i < log.length(); i++) {
             
-          /*  if (i <= (log.length()-2) )
+           if (i <= (log.length()-2) )
                 System.out.print(log.charAt(i) + " ");
             
             else if (i == (log.length() - 1)) 
-           */     System.out.print(log.charAt(i)+" ");
+                System.out.print(log.charAt(i));
                 
            }
         }
-         //System.out.println("");
+         System.out.println("");
        
         
     }
@@ -24,7 +24,7 @@ public class SpacedLogger implements Logger {
     @Override
     public void Error(String error) {
         
-        System.err.print("ERROR:");
+        System.out.print("ERROR:");
        
         for (int i = 0; i < error.length(); i++) {
             if (i <= (error.length()-2) )

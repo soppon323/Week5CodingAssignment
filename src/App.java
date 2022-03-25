@@ -7,17 +7,14 @@ public class App {
          
          Logger spacedLogger = new SpacedLogger();
          
-         //asterisklogger.Log("Promineo");
+         asterisklogger.Log("Promineo");
          
-         spacedLogger.Error("Tech |Tech");
+         spacedLogger.Error("Tech");
          
-         //asterisklogger.Error("Tech");
+         asterisklogger.Error("Tech");
            
-         //spacedLogger.Log("Promineo");
-         
-         
-         
-
+         spacedLogger.Log("Promineo");
+   
     }
 
 }
